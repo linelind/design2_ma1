@@ -105,6 +105,11 @@ footer {
     padding: 25px;
 }
 
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
 .footer-credit {
     margin-top: 30px;
 }
