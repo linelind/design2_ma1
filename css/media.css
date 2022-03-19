@@ -75,8 +75,13 @@
     }
 
     h1 {
-        margin-top: 100px;
+        margin-top: 70px;
         text-align: center;
+        font-size: 54px;
+    }
+
+    h2 {
+        font-size: 38px;
     }
 
     .section {
@@ -91,7 +96,7 @@
     }
 
     .section-inspired {
-        margin-bottom: -300px;
+        margin-bottom: -270px;
     }
 
     .section-inspired__decoration {
@@ -117,6 +122,11 @@
 @media only screen and (min-device-width: 1100px) {
     .navigation-contact {
         margin-left: 280px;
+    }
+
+    h1 {
+        margin-top: 100px;
+        font-size: 58px;
     }
 
     .section-news__decoration {
