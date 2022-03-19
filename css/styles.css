@@ -63,7 +63,7 @@ nav li {
 #hamburger-menu:checked ~ nav {
     display: inline-block;
     position: absolute;
-    margin-top: 300px;
+    margin-top: 350px;
     z-index: 150;
     background-color: var(--green);
     padding: 15px 30px;
@@ -124,7 +124,10 @@ footer {
     position: relative;
 }
 
-.section-content {
+.section-content,
+.news-image,
+.inspired-image,
+.contact-image {
     position: relative;
     z-index: 100;
 }
@@ -144,13 +147,13 @@ footer {
 }
 
 .section-inspired {
-    margin-bottom: -170px;
+    margin-bottom: -130px;
 }
 
 .section-inspired__decoration {
     background-color: var(--brown);
     top: -170px;
-    right: -140px;
+    left: -25px;
 }
 
 .section-contact {
@@ -165,53 +168,4 @@ footer {
     background-color: var(--tinted-green);
     top: -160px;
     left: -20px;
-}
-
-@media only screen and (min-device-width: 500px) {
-    .section-decoration {
-        height: 300px;
-        width: 300px;
-    }
-
-    .section-news {
-        margin-bottom: -210px;
-    }
-
-    .section-news__decoration {
-        top: -210px;
-    }
-
-    .section-inspired {
-        margin-bottom: -230px;
-    }
-
-    .section-inspired__decoration {
-        top: -230px;
-    }
-
-    .section-contact {
-        margin-bottom: -250px;
-    }
-
-    .section-contact__decoration {
-        top: -250px;
-        left: -40px;
-    }
-}
-
-@media only screen and (min-device-width: 700px) {
-    header {
-        display: flex;
-    }
-
-    .content-wrapper {
-        max-width: 1000px;
-        margin: auto;
-    }
-
-    footer {
-        flex-direction: row;
-        margin: 50px -50px 0px -50px;
-        padding: 50px;
-    }
 }
