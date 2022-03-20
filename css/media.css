@@ -1,4 +1,4 @@
-@media only screen and (min-device-width: 500px) {
+@media only screen and (min-width: 500px) {
     .section-decoration {
         height: 300px;
         width: 300px;
@@ -30,7 +30,7 @@
     }
 }
 
-@media only screen and (min-device-width: 700px) {
+@media only screen and (min-width: 700px) {
     footer {
         flex-direction: row;
         align-items: baseline;
@@ -38,7 +38,7 @@
     }
 }
 
-@media only screen and (min-device-width: 800px) {
+@media only screen and (min-width: 800px) {
     .content-wrapper {
         max-width: 1000px;
         margin: auto;
@@ -105,14 +105,14 @@
     }
 }
 
-@media only screen and (min-device-width: 900px) {
+@media only screen and (min-width: 900px) {
     .section-inspired__decoration {
         left: 160px;
         top: -390px;
     }
 }
 
-@media only screen and (min-device-width: 1000px) {
+@media only screen and (min-width: 1000px) {
     .section-inspired__decoration {
         left: 220px;
         top: -430px;
@@ -131,7 +131,7 @@
     }
 }
 
-@media only screen and (min-device-width: 1100px) {
+@media only screen and (min-width: 1100px) {
     .navigation-contact {
         margin-left: 280px;
     }
