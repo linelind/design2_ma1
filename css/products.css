@@ -7,7 +7,11 @@
 
 .productscover-container img {
     margin-top: 50px;
-    filter: saturate(115%);
+}
+
+.product img,
+.productscover-container img {
+    filter: saturate(95%);
 }
 
 .products-container {
@@ -27,7 +31,6 @@
 
 .product img {
     margin-top: 0px;
-    filter: brightness(0.9) saturate(115%);
 }
 
 .product__text {
