@@ -28,6 +28,18 @@
         top: -250px;
         left: -40px;
     }
+
+    .productscover-container {
+        margin: -70px;
+    }
+
+    .productscover-container img {
+        margin-top: 80px;
+    }
+
+    .products-container {
+        padding-top: 150px;
+    }
 }
 
 @media only screen and (min-width: 700px) {
@@ -35,6 +47,10 @@
         flex-direction: row;
         align-items: baseline;
         padding: 50px;
+    }
+
+    .productscover-container {
+        margin: -80px;
     }
 }
 
@@ -102,6 +118,12 @@
     .section-inspired__decoration {
         left: 100px;
         top: -370px;
+    }
+
+    .products-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 

@@ -1,0 +1,45 @@
+@import "imports/variables.css";
+
+.productscover-container {
+    min-width: 100%;
+    margin: -50px;
+}
+
+.productscover-container img {
+    margin-top: 50px;
+    filter: brightness(0.85) saturate(120%);
+}
+
+.products-container {
+    padding-top: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.product {
+    background-color: white;
+    max-width: 300px;
+    padding: 0px;
+}
+
+.product img {
+    margin-top: 0px;
+}
+
+.product__text {
+    padding: 5px 20px 20px 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.product__text p {
+    font-size: 18px;
+}
+
+.product__text img {
+    max-width: 30px;
+}

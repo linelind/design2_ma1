@@ -49,6 +49,10 @@ nav li {
     cursor: pointer;
 }
 
+li a {
+    color: var(--brown);
+}
+
 .hamburger-container {
     display: flex;
     flex-direction: row;
