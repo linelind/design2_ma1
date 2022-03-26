@@ -81,9 +81,9 @@
         gap: 70px;
     }
 
-    nav li {
-        padding-right: 5px;
+    li a {
         color: var(--brown);
+        padding-right: 5px;
     }
 
     .navigation-contact {
