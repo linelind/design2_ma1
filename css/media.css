@@ -98,6 +98,7 @@
 
     h2 {
         font-size: 38px;
+        margin-top: 30px;
     }
 
     .section {
@@ -118,6 +119,12 @@
     .section-inspired__decoration {
         left: 100px;
         top: -370px;
+    }
+
+    .cta {
+        padding: 10px 18px;
+        margin-bottom: 0px;
+        margin-top: 10px;
     }
 
     .products-container {
@@ -178,5 +185,9 @@
     .section-contact__decoration {
         left: -110px;
         top: -400px;
+    }
+
+    .fa-couch {
+        display: inline;
     }
 }

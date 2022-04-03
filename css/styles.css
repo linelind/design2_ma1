@@ -4,6 +4,12 @@
     font-family: "Open Sans";
     src: url("../assets/fonts/OpenSans-Regular.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: "Open Sans Semibold";
+    src: url("../assets/fonts/OpenSans-Semibold.ttf") format("truetype");
+}
+
 @font-face {
     font-family: "Active";
     src: url("../assets/fonts/ActiveRegular.OTF") format("opentype");
@@ -75,6 +81,11 @@ nav li {
     box-shadow: 3px 0px 3px var(--black);
 }
 
+.fa-couch {
+    display: none;
+    margin-left: 10px;
+}
+
 h1,
 h2 {
     font-family: "Active";
@@ -95,9 +106,30 @@ img {
     margin-top: 30px;
 }
 
+.cta {
+    border-radius: 100px;
+    padding: 8px 15px;
+    border: none;
+    color: var(--white);
+    font-family: "Open Sans Semibold";
+    margin-bottom: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cta-green {
+    background-color: var(--green);
+}
+
+.cta-brown {
+    background-color: var(--brown);
+}
+
+.cta-tintedgreen {
+    background-color: var(--tinted-green);
+}
+
 footer {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     background-color: var(--green);
     color: var(--white);
@@ -105,18 +137,34 @@ footer {
     padding: 25px;
 }
 
+footer,
+.footer-social {
+    display: flex;
+    flex-direction: column;
+}
+
 a {
     text-decoration: none;
     color: var(--white);
 }
 
-.footer-credit {
+.footer-credit,
+.footer-contact {
     margin-top: 30px;
 }
 
 .footer__firstline {
     padding-bottom: 10px;
     font-weight: 700;
+}
+
+.footer-social a {
+    margin-bottom: 10px;
+}
+
+.fa-brands {
+    padding-left: 10px;
+    font-size: 15px;
 }
 
 .wrapper {
